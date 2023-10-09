@@ -1,0 +1,26 @@
+.main{
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.cpt{
+    margin-left: 2rem;
+    width: 600px; 
+    text-align:left;
+    padding: 1.6rem;
+    color: #989898;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.7ch;
+}
+.content img{
+    border: thick double #989898;
+    /*transform: skew(20deg);*/
+}
+.line {
+  height: 4px;
+  width: 40px;
+  background-color: #989898;
+  float: left;
+  margin: 14px;
+  padding: 0px;
+}
