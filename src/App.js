@@ -8,6 +8,7 @@ import Blogs from './components/blogs/Blogs';
 function App() {
   return (
     <div className="App">
+      <Home/>
       <BrowserRouter>
       <Routes>
           <Route exact path="/" element={<Home/>} />
