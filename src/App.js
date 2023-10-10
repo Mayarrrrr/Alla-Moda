@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="App">
       <Home/>
-      <HashRouter>
+      <BrowserRouter>
       <Routes>
-          <Route exact path="/" element={<Home/>} />
-          <Route exact path="/Blogs" element={<Blogs/>} />
+          <Route exact path="/Alla-Moda" element={<Home/>} />
+          <Route exact path="/Alla-Moda/Blogs" element={<Blogs/>} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
     </div>
   );
 }
