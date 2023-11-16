@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="App">
       <Home/>
-      <BrowserRouter>
+      <HashRouter basename='/Mayarrrrr.github.io/Alla-Moda/'>
       <Routes>
-          <Route exact path="/Alla-Moda" element={<Home/>} />
-          <Route exact path="/Alla-Moda/Blogs" element={<Blogs/>} />
+          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/Blogs" element={<Blogs/>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 }
